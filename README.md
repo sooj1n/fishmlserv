@@ -2,4 +2,5 @@
 
 ### Deploy
 
-![deploy-image](https://github.com/user-attachments/assets/aa0556f8-1873-4adc-af03-69b0a1a69eb4)
+![image](https://github.com/user-attachments/assets/6b7e8b51-fdcd-4027-8aaa-bfc0d8be369d)
+
