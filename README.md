@@ -35,3 +35,8 @@ $ flyctl deploy
 ```bash
 https://curlconverter.com/python
 ```
+
+- 로그 확인
+```bash
+$ sudo docker logs -f f074
+```
