@@ -2,7 +2,7 @@ import os
 
 def get_model_path():
     # 이 함수 파일의 절대 경로를 받아온다.
-    my_pyth = __file__
+    my_path = __file__
     #/home/sujin/code/fishmlserv/src/fishmlserv/model/manager.py
     dir_name = os.path.dirname(my_path)
     #/home/sujin/code/fishmlserv/src/fishmlserv/model
