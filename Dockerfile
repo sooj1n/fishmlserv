@@ -1,5 +1,5 @@
 FROM python:3.11
-
+From datamario24/python311scikitlearn-fastapi:1.0.0
 WORKDIR /code
 
 COPY src/fishmlserv/main.py /code/
