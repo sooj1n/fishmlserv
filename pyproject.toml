@@ -23,3 +23,7 @@ distribution = true
 note = [
     "notebook>=7.2.2",
 ]
+
+[project.scripts]
+get-model-path = 'fishmlserv.model:get_model_path'
+
