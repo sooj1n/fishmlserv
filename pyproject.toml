@@ -26,4 +26,4 @@ note = [
 
 [project.scripts]
 get-model-path = 'fishmlserv.model.manager:get_model_path'
-prediction = 'fishmlserv.model.fish:prediction'
+prediction = 'fishmlserv.model.manager:prediction'
