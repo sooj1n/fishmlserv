@@ -5,8 +5,7 @@ From datamario24/python311scikitlearn-fastapi:1.0.0
 WORKDIR /code
 
 COPY src/fishmlserv/main.py /code/
-COPY src/fishmlserv/fish.py /code/
 
-RUN pip install --no-cache-dir --upgrade git+https://github.com/S00zzang/fishmlserv.git@0.8/hub
+RUN pip install --no-cache-dir --upgrade git+@https://github.com/sooj1n/fishmlserv.git0.8/hub
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"] 
