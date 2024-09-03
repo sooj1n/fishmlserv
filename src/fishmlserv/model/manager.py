@@ -17,7 +17,7 @@ def get_model_path():
     # 사용 fastapi mian.py에서 아래와 같이 사용
     # from fishmlserv.model.manager import get_model_path
 
-def prediction(l, w):
+def prediction(l:float, w:float):
     model_path = get_model_path()
 
     ### 모델 불러오기
