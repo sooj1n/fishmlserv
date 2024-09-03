@@ -25,5 +25,5 @@ note = [
 ]
 
 [project.scripts]
-get-model-path = 'fishmlserv.model:get_model_path'
+get-model-path = 'fishmlserv.model.manager:get_model_path'
 
