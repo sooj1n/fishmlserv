@@ -13,9 +13,10 @@ def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 
 ### 모델 불러오기
-    model_path = get_model_path()
-    with open(model_path, "rb") as f:
-        fish_model = pickle.load(f)
+model_path = get_model_path()
+global fish_model
+with open(model_path, "rb") as f:
+    fish_model = pickle.load(f)
 
 
 @app.get("/fish")
