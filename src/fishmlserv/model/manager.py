@@ -19,15 +19,15 @@ def get_model_path():
     # 사용 fastapi mian.py에서 아래와 같이 사용
     # from fishmlserv.model.manager import get_model_path
 
+model_path = get_model_path()
+
+### 모델 불러오기
+with open(model_path, "rb") as f:
+    fish_model = pickle.load(f)
+
 def prediction():
     l = float(sys.argv[1])
     w = float(sys.argv[2])
-
-    model_path = get_model_path()
-
-    ### 모델 불러오기
-    with open(model_path, "rb") as f:
-        fish_model = pickle.load(f)
 
     prediction = fish_model.predict([[l, w]])
 
